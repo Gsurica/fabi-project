@@ -1,7 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  isOpen: false 
+  isOpen: false,
+  chooseImage: "" 
 }
 
 const modalSlice = createSlice({
@@ -11,8 +12,11 @@ const modalSlice = createSlice({
     open: (state, action) => {
       state.isOpen = action.payload;
     },
+    chooseImage: (state, action) => {
+      state.chooseImage = action.payload;
+    },
   },
 });
 
 export default modalSlice.reducer;
-export const { open } = modalSlice.actions;
+export const { open, chooseImage } = modalSlice.actions;

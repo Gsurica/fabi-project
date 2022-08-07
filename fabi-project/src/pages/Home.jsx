@@ -37,11 +37,17 @@ export default function Home () {
       <Title title="Fabi! muitas felicidades!" icon={ <ion-icon name="cloudy-outline"></ion-icon> } />
       <Divider />
       <SubTitle subtitle="Mensagens!" />
-      <BirthdayMessages title="lorem ipsum" message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas iaculis in ligula ut dignissim. Nulla facilisi. Aliquam molestie maximus lectus ut suscipit. Cras venenatis faucibus rhoncus. Sed dictum quam posuere arcu mattis bibendum. Quisque volutpat dictum elit," />
+      <BirthdayMessages title="Aquele Momento!" message="Um momento especial de renovação para sua alma e seu espírito, porque Deus, na sua infinita sabedoria, deu à natureza a capacidade de desabrochar a cada nova estação e a nós, capacidade de recomeçar a cada ano." />
       <Flower />
-      <BirthdayMessages title="lorem ipsum" message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas iaculis in ligula ut dignissim. Nulla facilisi. Aliquam molestie maximus lectus ut suscipit. Cras venenatis faucibus rhoncus. Sed dictum quam posuere arcu mattis bibendum. Quisque volutpat dictum elit," />
+      <BirthdayMessages title="O desejo..." message="Desejo a você um ano cheio de amor e de alegrias.
+      Afinal, fazer aniversário é ter a chance de fazer novos amigos, ajudar mais pessoas, aprender e ensinar novas lições, vivenciar outras dores e suportar velhos problemas." />
       <Flower />
-      <BirthdayMessages title="lorem ipsum" message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas iaculis in ligula ut dignissim. Nulla facilisi. Aliquam molestie maximus lectus ut suscipit. Cras venenatis faucibus rhoncus. Sed dictum quam posuere arcu mattis bibendum. Quisque volutpat dictum elit," />
+      <BirthdayMessages title="O sorriso..." message="Sorrir novos motivos e chorar outros, porque amar o próximo é dar mais amparo, rezar mais preces e agradecer mais vezes.
+      Fazer aniversário é amadurecer um pouco mais e olhar a vida como uma dádiva de Deus." />
+      <Flower />
+      <BirthdayMessages title="O por fim, a gratidão" message="É ser grato, reconhecido, forte, destemido.
+      É ser rima, é ser verso, é ver Deus no universo.
+      Parabéns a você nesse dia tão grandioso." />
       <Flower />
       <Divider />
       <Title title="Um vídeo para alguém especial!" icon={ <ion-icon name="cloudy-outline"></ion-icon> } />
@@ -62,7 +68,12 @@ export default function Home () {
       <Divider />
       <SubTitle subtitle="Seja essa pessoa especial!" />
       <Flower />
-      <BirthdayMessages title="lorem ipsum" message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas iaculis in ligula ut dignissim. Nulla facilisi. Aliquam molestie maximus lectus ut suscipit. Cras venenatis faucibus rhoncus. Sed dictum quam posuere arcu mattis bibendum. Quisque volutpat dictum elit," />
+      <BirthdayMessages title="A uma grande amiga!" message="Fabi,
+      Desde o momento que te conheci já gostei de você, de cara e de graça!
+      Moça risonha e de uma positividade que transborda,essa é você na minha percepção,no meu mundo você é fabulosa!
+      Sua amizade é coisa rara e verdadeira,e eu desejo pra você tudo oque há de melhor nessa vida!
+      Parabéns amiga!" />
+      <Flower />
       <Footer />
     </>
   )
