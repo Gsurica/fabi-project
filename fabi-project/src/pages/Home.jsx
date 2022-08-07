@@ -66,7 +66,7 @@ export default function Home () {
       <Divider />
       <Title title="Finalizando..." icon={ <ion-icon name="cloudy-outline"></ion-icon> } />
       <Divider />
-      <SubTitle subtitle="Seja essa pessoa especial!" />
+      <SubTitle subtitle="Uma pessoa especial!" />
       <Flower />
       <BirthdayMessages title="A uma grande amiga!" message="Fabi,
       Desde o momento que te conheci já gostei de você, de cara e de graça!

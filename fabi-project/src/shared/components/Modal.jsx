@@ -16,7 +16,7 @@ export default function Modal () {
       <div className="grid grid-cols-1 gap-4" onClick={ () => window.location.reload() }>
         <div className="bg-black opacity-80 inset-0 absolute flex items-center justify-center flex-col">
         <div className="px-8 py-10 bg-yellow-300 text-black">
-          <h1 className="font-bold animate-bounce">Musica rolando... dance junto com o pato!</h1>
+          <h1 className="font-bold animate-bounce">Musica rolando...</h1>
         </div>
         <div className="px-8 py-6">
           <img src={ iza } className="rounded-lg" />
@@ -34,7 +34,7 @@ export default function Modal () {
       <div className="grid grid-cols-1 gap-4" onClick={ () => window.location.reload() }>
         <div className="bg-black opacity-80 inset-0 absolute flex items-center justify-center flex-col">
         <div className="px-8 py-10 bg-yellow-300 text-black">
-          <h1 className="font-bold animate-bounce">Musica rolando... dance junto com o pato!</h1>
+          <h1 className="font-bold animate-bounce">Musica rolando... </h1>
         </div>
         <div className="px-8 py-6">
           <img src={ frog } className="rounded-lg" />
@@ -52,7 +52,7 @@ export default function Modal () {
       <div className="grid grid-cols-1 gap-4" onClick={ () => window.location.reload() }>
         <div className="bg-black opacity-80 inset-0 absolute flex items-center justify-center flex-col">
         <div className="px-8 py-10 bg-yellow-300 text-black">
-          <h1 className="font-bold animate-bounce">Musica rolando... dance junto com o pato!</h1>
+          <h1 className="font-bold animate-bounce">Musica rolando...</h1>
         </div>
         <div className="px-8 py-6">
           <img src={ minions } className="rounded-lg" />
@@ -70,7 +70,7 @@ export default function Modal () {
     <div className="grid grid-cols-1 gap-4" onClick={ () => window.location.reload() }>
         <div className="bg-black opacity-80 inset-0 absolute flex items-center justify-center flex-col">
         <div className="px-8 py-10 bg-yellow-300 text-black">
-          <h1 className="font-bold animate-bounce">Musica rolando... dance junto com o pato!</h1>
+          <h1 className="font-bold animate-bounce">Musica rolando...</h1>
         </div>
         <div className="px-8 py-6">
           <img src={ duckdancing } className="rounded-lg" />
