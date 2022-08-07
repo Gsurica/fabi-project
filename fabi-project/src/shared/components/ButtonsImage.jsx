@@ -7,9 +7,12 @@ import { buttonImage, images } from "../../css/defaultStyles";
 import audio1 from "../../assets/audios/347aidan - Dancing In My Room (Lyrics)  i been dancing in my room swaying my feet.mp3";
 import audio2 from "../../assets/audios/Just the Two of Us.mp3";
 import audio3 from "../../assets/audios/Milky Chance - Stolen Dance (Album Version).mp3";
+import audio4 from "../../assets/audios/IZA - Dona de Mim.mp3";
+import audio5 from "../../assets/audios/Jeito Moleque - A amizade é tudo.mp3";
+import audio6 from "../../assets/audios/Voce E Linda.mp3";
 
 import { useSelector, useDispatch } from "react-redux";
-import { open } from "../../features/modalSlice";
+import { open, chooseImage } from "../../features/modalSlice";
 
 export default function ButtonsImage () {
 
@@ -23,12 +26,13 @@ export default function ButtonsImage () {
 
   return (
     <div>
-      <div className="w-full flex items-center justify-evenly">
+      <div className="w-full flex items-center justify-evenly md:justify-around">
         <div style={ buttonImage }>
           <button style={ images }
             onClick={ () => {
               dispatch(open(true));
-              playMusic(audio1);
+              playMusic(audio4);
+              dispatch(chooseImage("iza"));
             } }
           >
             <img src={ img1 } style={ images } />
@@ -38,7 +42,8 @@ export default function ButtonsImage () {
           <button style={ images }
             onClick={ () => {
               dispatch(open(true));
-              playMusic(audio2);
+              playMusic(audio5);
+              dispatch(chooseImage("minions"));
             } }
           >
             <img src={ img2 } style={ images } />
@@ -50,7 +55,8 @@ export default function ButtonsImage () {
           <button style={ images }
             onClick={ () => {
               dispatch(open(true));
-              playMusic(audio3);
+              playMusic(audio6);
+              dispatch(chooseImage("frog"));
             }}
           >
             <img src={ img3 } style={ images } />
